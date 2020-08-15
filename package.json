@@ -19,7 +19,8 @@
     "@testing-library/dom": "^7.2.1",
     "@testing-library/jest-dom": "^5.5.0",
     "babel-jest": "^25.3.0",
-    "cm523-fall2020": "github:ProfessorKolodziej/cm523-unit-tests",
+    "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests",
+    "html-validate": "^3.0.0",
     "jest": "^25.3.0",
     "serve": "^11.3.0"
   }
