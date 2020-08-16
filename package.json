@@ -23,5 +23,21 @@
     "html-validate": "^3.0.0",
     "jest": "^25.3.0",
     "serve": "^11.3.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "setupFilesAfterEnv": [
+      "regenerator-runtime/runtime"
+    ],
+    "testMatch": [
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ],
+    "testPathIgnorePatterns": [],
+    "transformIgnorePatterns": [],
+    "haste": {
+      "providesModuleNodeModules": [
+        "cm523-unit-tests/test-unit-test"
+      ]
+    }
   }
 }
