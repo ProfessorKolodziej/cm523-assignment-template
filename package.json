@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "serve src",
-    "test": "jest"
+    "test": "jest --coverage=false --no-cache"
   },
   "keywords": [],
   "author": "",
@@ -38,6 +38,10 @@
       "providesModuleNodeModules": [
         "cm523-unit-tests/test-unit-test"
       ]
+    },
+    "testEnvironment": "node",
+    "transform": {
+      "\\.js$": ["babel-jest", { "configFile": "./node_modules/cm523-unit-tests/test-unit-test/babel.config.js" }]
     }
   }
 }
