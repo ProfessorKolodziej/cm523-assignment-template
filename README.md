@@ -44,4 +44,4 @@ If you'd like to run this project locally, [install the LTS version of node.js](
 
 ## About this repository
 
-Automated feedback is heavily based on the work of [thawkin3](https://github.com/thawkin3/dom-testing-demo), and uses Jest.
+Automated feedback is heavily based on the work of [thawkin3](https://github.com/thawkin3/dom-testing-demo) and [d12](https://github.com/education/autograding-example-node), and uses Jest.
