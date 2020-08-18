@@ -19,6 +19,10 @@ Today, we're going to be making our first changes to HTML.
 	```
 - [ ] Send a link to your completed project in Glitch in the #introductions channel in Slack.
 
+## Finished Assignment Example
+
+<img width="1552" alt="Screen Shot 2020-08-18 at 2 04 36 PM" src="https://user-images.githubusercontent.com/1828613/90549036-e21c4b00-e15b-11ea-8828-b8dcd5d076de.png">
+
 ## Get started by syncing with Glitch!
 
 First time? Need some extra help getting set up? Check out [this tutorial video on Kaltura](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n).
