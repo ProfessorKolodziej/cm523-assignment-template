@@ -8,6 +8,10 @@ Assignment description here.
 - [ ] Requirement two
 - [ ] Requirement three
 
+## Finished Assignment Example
+
+You can add a finished assignment screenshot by uploading your screenshot to a Github issue in your new template repository. Copy and paste the markup that is generated here. Note - you don't have to save the issue!
+
 ## Get started by syncing with Glitch!
 
 First time? Need some extra help getting set up? Check out [this tutorial video on Kaltura](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n).
