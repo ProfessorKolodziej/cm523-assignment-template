@@ -36,7 +36,7 @@
     "transformIgnorePatterns": [],
     "haste": {
       "providesModuleNodeModules": [
-        "cm523-unit-tests/test-unit-test"
+        "cm523-unit-tests/hello-world"
       ]
     },
     "transform": {
