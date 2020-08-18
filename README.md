@@ -5,7 +5,7 @@ Today, we're going to be making our first changes to HTML.
 ## Requirements
 
 - [ ] Change the title of the page to Hello, world!
-- [ ] Add a paragraph inside the body tag with the text "Hello, world!", using the `<p>` tag.
+- [ ] Add a paragraph in the first line of the body tag with the text "Hello, world!", using the `<p>` tag.
 - [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
 - [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to introduce to the class. Use the snippet below to get started:
 	```
