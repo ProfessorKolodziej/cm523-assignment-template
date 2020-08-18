@@ -10,7 +10,7 @@ Today, we're going to be making our first changes to HTML.
 - [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to introduce to the class. Use the snippet below to get started:
 	```
 		<h2>My favorite new HTML element</h2>
-		<!-- This is a comment. It helps provide instructions, and doesn't show in final HTML. You can delete it if you want, and replace this with what your favorite HTML element is, and why. -->
+		<!-- This is a comment. It helps provide instructions, and doesn't show in final HTML. You can delete it if you want, and replace this with what your favorite HTML element is, and why. Hint: if you want to show your HTML element like a tag in the text, like in the example, you may need to escape the HTML element using a tool like https://www.freeformatter.com/html-escape.html -->
 		<h3>How to use this element</h3>
 		<code>
 			<!-- Try adding an example of how to use your HTML element here. You can use MDN's examples as a starting point. -->
