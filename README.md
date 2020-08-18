@@ -1,12 +1,23 @@
-# Assignment
+# Hello, world!
 
-Assignment description here.
+Today, we're going to be making our first changes to HTML.
 
 ## Requirements
 
-- [ ] Requirement one
-- [ ] Requirement two
-- [ ] Requirement three
+- [ ] Change the title of the page to Hello, world!
+- [ ] Add a paragraph inside the body tag with the text "Hello, world!", using the `<p>` tag.
+- [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
+- [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to introduce to the class. Use the snippet below to get started:
+	```
+		<h2>My favorite new HTML element</h2>
+		<!-- This is a comment. It helps provide instructions, and doesn't show in final HTML. You can delete it if you want, and replace this with what your favorite HTML element is, and why. -->
+		<h3>How to use this element</h3>
+		<code>
+			<!-- Try adding an example of how to use your HTML element here. You can use MDN's examples as a starting point. -->
+		</code>
+		<p>All information is from <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></cite></p>
+	```
+- [ ] Send a link to your completed project in Glitch in the #introductions channel in Slack.
 
 ## Get started by syncing with Glitch!
 
@@ -18,6 +29,7 @@ Just need a quick refresher? [Try this part of the video instead.](https://mymed
 - Copy the URL of this repository, then open [Glitch](https://glitch.com/) in a new tab.
 - Click "New Project", then "Import from Github".
 - Paste the URL of this repository into the dialog.
+- Rename the project to something you will remember, like this repository name.
 
 A new Glitch project with this code will appear. Now, you should set up the export so that when you're done editing in Glitch, Github will be able to see your changes, and you can check to see if you met the assignment requirements. This is the perfect time to test that connection.
 
