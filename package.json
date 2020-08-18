@@ -1,0 +1,51 @@
+{
+  "name": "cm523-assignment-template",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@testing-library/dom": "^7.22.2",
+    "@testing-library/jest-dom": "^5.5.0",
+    "babel-jest": "^25.3.0",
+    "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests",
+    "html-validate": "^3.0.0",
+    "jest": "^25.3.0",
+    "serve": "^11.3.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "setupFilesAfterEnv": [
+      "regenerator-runtime/runtime"
+    ],
+    "testMatch": [
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ],
+    "testPathIgnorePatterns": [],
+    "transformIgnorePatterns": [],
+    "haste": {
+      "providesModuleNodeModules": [
+        "cm523-unit-tests/test-unit-test"
+      ]
+    },
+    "transform": {
+      "\\.js$": [
+        "babel-jest",
+        {
+          "configFile": "./node_modules/cm523-unit-tests/babel.config.js"
+        }
+      ]
+    }
+  }
+}
