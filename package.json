@@ -1,6 +1,6 @@
 {
-  "name": "cm523-assignment",
-  "version": "1.0.0",
+  "name": "cm523-assignment-template",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -39,12 +39,11 @@
         "cm523-unit-tests/test-unit-test"
       ]
     },
-    "testEnvironment": "node",
     "transform": {
       "\\.js$": [
         "babel-jest",
         {
-          "configFile": "./node_modules/cm523-unit-tests/test-unit-test/babel.config.js"
+          "configFile": "./node_modules/cm523-unit-tests/babel.config.js"
         }
       ]
     }
