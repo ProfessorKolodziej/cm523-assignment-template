@@ -54,12 +54,12 @@
     "glob": "^7.1.4",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^4.0.0-beta.8",
-    "http-server": "^0.11.1",
+    "http-server": "^0.12.3",
     "image-webpack-loader": "^5.0.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "postcss-sass": "^0.4.1",
@@ -83,10 +83,10 @@
     "enquirer": "^2.3.1",
     "figlet": "^1.2.3",
     "ftp-deploy": "^2.3.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
     "reset-css": "^4.0.1",
     "sanitize.css": "^11.0.0",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.11.0"
   }
 }
