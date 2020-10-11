@@ -9,10 +9,10 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Static Site Boilerplate',
+  site_name: 'Student Site Boilerplate',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: 'A modern static site workflow for modern students of web development, simplified for easier learning.',
 
   // Your website's URL, used for sitemap
   site_url: 'https://professorkolodziej.github.io/static-site-boilerplate/',

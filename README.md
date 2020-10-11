@@ -16,7 +16,7 @@ Other modifications include simplifying the output from Webpack to errors
 only so students aren't wading through a pile of success messages to find
 out if their build has successfully deployed to Github Pages.
 
-* Static Site Boilerplate Documentation: [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
+**Static Site Boilerplate Documentation:** [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
 
 ## Installation
 
