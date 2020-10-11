@@ -17,6 +17,7 @@ module.exports = {
   mode: ['production', 'development'].includes(config.env)
     ? config.env
     : 'development',
+  stats: 'errors-only',
   devtool: config.env === 'production'
     ? 'hidden-source-map'
     : 'cheap-eval-source-map',
