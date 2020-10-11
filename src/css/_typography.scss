@@ -1,0 +1,18 @@
+// Your typography styles here.
+
+// You can type two slashes to create a comment in Sass.
+
+// An example of a variable. Try changing it.
+// Most people put their variables in a _colors.scss partial to
+// help keep them organized and in one place across files.
+// This makes it easier to work together!
+
+$ocean-blue: #1b6e97;
+
+h1 {
+	color: $ocean-blue;
+}
+
+a {
+	color: $ocean-blue;
+}
