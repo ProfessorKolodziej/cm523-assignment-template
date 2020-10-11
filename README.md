@@ -33,6 +33,7 @@ Run `npm install` to install development dependencies, then see `Usage` below.
 ## Usage
 
 - `npm run start`: Start development. Opens a new window in your favorite browser which will refresh when you change your code. Edit your code in the `src` folder.
+- `npm run lint`: Run all linters on your code.
 - `npm run lint:styles`: Lint your Sass/CSS styles for possible formatting and coding standards errors using Stylelint.
 - `npm run lint:js`: Lint your JavaScript for possible formatting and coding standards errors using ESLint.
 - `npm run build`: Create a production-ready build of your code to the `dist` folder.
