@@ -1,25 +1,44 @@
-# Static Site Boilerplate
+# Student Site Boilerplate
 
-[![Static Site Boilerplate](http://staticsiteboilerplate.com/externals/github.png)](https://github.com/ericalli/static-site-boilerplate/releases/latest)
+Student Site Boilerplate aims to introduce new web development students to
+modern build tools in a simplified manner. The goal of this project is to
+be able to build and deploy a simple static site right to Github and allow
+students to explore Sass and ES6 without worrying about setting up Babel,
+Webpack, or other build tools.
 
-* Homepage: [http://staticsiteboilerplate.com/](http://staticsiteboilerplate.com//)
-* Documentation: [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
+[Static Site Boilerplate](http://staticsiteboilerplate.com//) is used as a
+starting point for its utility and relative simplicity. All commands are run
+through npm scripts so additional technologies like Grunt, Gulp, Yarn, etc.
+don't have to be taught. Github Pages is used to reduce the overhead of trying
+to find hosting for student projects, and keep progress in one place.
+
+Other modifications include simplifying the output from Webpack to errors
+only so students aren't wading through a pile of success messages to find
+out if their build has successfully deployed to Github Pages.
+
+* Static Site Boilerplate Documentation: [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
 
 ## Installation
 
-```bash
-git clone https://github.com/ericalli/static-site-boilerplate
- ```
+Clone or download this repository using your favorite method (Command Line, GUI such as Tower, etc)
+
+Change directory to this repository on your computer (path may be different depending on where the repository is located):
 
  ```bash
-cd static-site-boilerplate
+cd student-site-boilerplate
  ```
 
- ```bash
-rm -rf .git && git init
- ```
+Run `npm install` to install development dependencies, then see `Usage` below.
 
- ## Features
+## Usage
+
+- `npm run start`: Start development. Opens a new window in your favorite browser which will refresh when you change your code. Edit your code in the `src` folder.
+- `npm run lint:styles`: Lint your Sass/CSS styles for possible formatting and coding standards errors using Stylelint.
+- `npm run lint:js`: Lint your JavaScript for possible formatting and coding standards errors using ESLint.
+- `npm run build`: Create a production-ready build of your code to the `dist` folder.
+- `npm run deploy`: Builds and deploys your code to Github Pages.
+
+## Features
 
 * **Modern Technologies:** Full support for HTML5, JavaScript (Vanilla and ES6) and CSS (Sass and PostCSS)
 * **Built-in Server:** Local development server with hot reloading
@@ -28,12 +47,8 @@ rm -rf .git && git init
 * **Favicon Generation:** Automatically generates all favicons for Web, Apple and Android devices from one image file
 * **Code Linting:** Full support for JavaScript (ESLint) and CSS (StyleLint) linting
 * **Sitemap & Robots.txt Generation:** Automatically generates a sitemap.xml and robots.txt files
-* **Setup Wizard:** Optionally install helpful libraries and snippets including:
-  * CSS Resets: `normalize.css` `reset.css` or `sanitize.css`
-  * jQuery
-  * Google Analytics
 * **Cutting Edge:** Uses Webpack for processing and bundling your code
-* **Deployment:** Built-in support for deployment via FTP or Netlify
+* **Deployment:** Built-in support for deploying `dist` to the `gh-pages` branch. Serve your site right on Github Pages!
 
 ## Browser Support
 
@@ -45,29 +60,6 @@ rm -rf .git && git init
 * Safari _\(latest 2\)_
 
 _This  is fully dependent on your code and doesn't mean that Static Site Boilerplate won't work in older browsers, just that we'll ensure compatibility with the ones mentioned above._
-
-## Support & Contributing
-
-For general questions about Static Site Boilerplate, tweet at [@ericalli](https://twitter.com/ericalli).
-
-Anyone is welcome to contribute. If you decide to get involved, please take a moment and check out the following:
-
-* [Bug reports](.github/ISSUE_TEMPLATE/bug_report.md)
-* [Feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
-
-
-## Sponsors
-
-[**Become a sponsor**](https://opencollective.com/static-site-boilerplate) and get your company in front of thousands of engaged front end developers and support this project!
-
-[![Become a sponsor](https://opencollective.com/static-site-boilerplate/tiers/backer.svg?avatarHeight=64)](https://opencollective.com/static-site-boilerplate)
-
-## Author
-
-**Eric Alli**
-
--   Website: <http://www.ericalli.com/>
--   Github: <https://github.com/ericalli/>
 
 ## License
 
