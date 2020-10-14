@@ -19,6 +19,12 @@ linting.
 
 **Static Site Boilerplate Documentation:** [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
 
+## Prerequisites
+
+- [Node.js and npm (Node Package Manager)](https://nodejs.org/en/) - this repository has been tested through 12.19.0 LTS
+- A code editor of your choice, such as [VSCode](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/)
+- A way to connect to and work with Git and Github. If you like having a user interface to do this, I recommend (and personally use) [Tower(https://www.git-tower.com/students/mac).
+
 ## Installation
 
 Clone or download this repository using your favorite method (Command Line, GUI such as Tower, etc)
