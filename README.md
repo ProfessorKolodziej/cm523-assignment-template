@@ -14,7 +14,8 @@ to find hosting for student projects, and keep progress in one place.
 
 Other modifications include simplifying the output from Webpack to errors
 only so students aren't wading through a pile of success messages to find
-out if their build has successfully deployed to Github Pages.
+out if their build has successfully deployed to Github Pages and adding HTML5
+linting.
 
 **Static Site Boilerplate Documentation:** [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
 
@@ -34,6 +35,7 @@ Run `npm install` to install development dependencies, then see `Usage` below.
 
 - `npm run start`: Start development. Opens a new window in your favorite browser which will refresh when you change your code. Edit your code in the `src` folder.
 - `npm run lint`: Run all linters on your code.
+- `npm run lint:html`: Lint your HTML for possible formatting and coding standards errors using HTML Validate.
 - `npm run lint:styles`: Lint your Sass/CSS styles for possible formatting and coding standards errors using Stylelint.
 - `npm run lint:js`: Lint your JavaScript for possible formatting and coding standards errors using ESLint.
 - `npm run build`: Create a production-ready build of your code to the `dist` folder.
