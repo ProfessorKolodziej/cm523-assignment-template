@@ -19,6 +19,11 @@ linting.
 
 **Static Site Boilerplate Documentation:** [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
 
+The Student Site Boilerplate is part of a lesson in my web design and development class,
+and I teach Github, Tower, and VSCode alongside this boilerplate. If you are interested 
+in the documentation for this process and setting up your development environment in the 
+same way, you can follow along with [this Google Doc](https://docs.google.com/document/d/14usTx6c1L1MwSjRvwtk4spz40EDgHV50_53kKAiHzcM/edit?usp=sharing).
+
 ## Prerequisites
 
 - [Node.js and npm (Node Package Manager)](https://nodejs.org/en/) - this repository has been tested through 12.19.0 LTS
