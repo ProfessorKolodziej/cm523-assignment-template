@@ -34,6 +34,7 @@
     "lint:js": "./node_modules/.bin/eslint \"src/**/*.js\"",
     "lint:styles": "stylelint \"src/**/*.scss\"",
     "lint": "npm run lint:html && npm run lint:styles && npm run lint:js",
+    "fix": "./node_modules/.bin/eslint --fix \"src/**/*.js\" && stylelint --fix \"src/**/*.scss\"",
     "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js",
     "deploy": "npm run build && gh-pages -d dist"
   },

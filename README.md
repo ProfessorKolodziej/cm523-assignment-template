@@ -20,8 +20,8 @@ linting.
 **Static Site Boilerplate Documentation:** [https://docs.staticsiteboilerplate.com/](https://docs.staticsiteboilerplate.com/)
 
 The Student Site Boilerplate is part of a lesson in my web design and development class,
-and I teach Github, Tower, and VSCode alongside this boilerplate. If you are interested 
-in the documentation for this process and setting up your development environment in the 
+and I teach Github, Tower, and VSCode alongside this boilerplate. If you are interested
+in the documentation for this process and setting up your development environment in the
 same way, you can follow along with [this Google Doc](https://docs.google.com/document/d/14usTx6c1L1MwSjRvwtk4spz40EDgHV50_53kKAiHzcM/edit?usp=sharing).
 
 ## Prerequisites
@@ -51,6 +51,7 @@ Run `npm install` to install development dependencies, then see `Usage` below.
 
 - `npm run start`: Start development. Opens a new window in your favorite browser which will refresh when you change your code. Edit your code in the `src` folder.
 - `npm run lint`: Run all linters on your code.
+- `npm run fix`: Run all linters on your code, and attempt to automatically fix issues in JS and Sass/CSS.
 - `npm run lint:html`: Lint your HTML for possible formatting and coding standards errors using HTML Validate.
 - `npm run lint:styles`: Lint your Sass/CSS styles for possible formatting and coding standards errors using Stylelint.
 - `npm run lint:js`: Lint your JavaScript for possible formatting and coding standards errors using ESLint.
