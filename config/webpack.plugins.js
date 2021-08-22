@@ -19,18 +19,9 @@ const hmr = new webpack.HotModuleReplacementPlugin();
 
 // Optimize CSS assets
 const optimizeCss = new OptimizeCssAssetsPlugin({
-  assetNameRegExp: /\.css$/g,
+  assetNameRegExp: /\.optimize\.css$/g,
   cssProcessor: cssnano,
-  cssProcessorPluginOptions: {
-    preset: [
-      'default',
-      {
-        discardComments: {
-          removeAll: true,
-        },
-      },
-    ],
-  },
+  cssProcessorOptions: { safe: true, discardComments: { removeAll: true } },
   canPrint: true,
 });
 
