@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const autoprefixer = require('autoprefixer');
 const config = require('./site.config');
 
 // Define common loader constants
@@ -44,10 +45,9 @@ const cssLoader = {
 const postcssLoader = {
   loader: 'postcss-loader',
   options: {
-    plugins: [
-      require('autoprefixer')(),
-    ],
-    sourceMap,
+		postcssOptions: {
+			plugins: [ autoprefixer ]
+		}
   },
 };
 
