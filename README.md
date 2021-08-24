@@ -26,7 +26,7 @@ same way, you can follow along with [this Google Doc](https://docs.google.com/do
 
 ## Prerequisites
 
-- [Node.js and npm (Node Package Manager)](https://nodejs.org/en/) - this repository has been tested through 12.19.0 LTS. Windows users, be sure to check the "Install additional tools" checkbox during your installation process.
+- [Node.js and npm (Node Package Manager)](https://nodejs.org/en/) - this repository has been tested through 14.17.5 LTS. Windows users, be sure to check the "Install additional tools" checkbox during your installation process.
 - A code editor of your choice, such as [VSCode](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/)
 - A way to connect to and work with Git and Github. If you like having a user interface to do this, I recommend (and personally use) [Tower](https://www.git-tower.com/students/mac). (A Windows version is also available!)
 
