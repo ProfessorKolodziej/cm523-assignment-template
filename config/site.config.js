@@ -8,21 +8,6 @@ if (!ROOT) {
 }
 
 const config = {
-  // Your website's name, used for favicon meta tags
-  site_name: 'Student Site Boilerplate',
-
-  // Your website's description, used for favicon meta tags
-  site_description: 'A modern static site workflow for modern students of web development, simplified for easier learning.',
-
-  // Your website's URL, used for sitemap
-  site_url: 'https://professorkolodziej.github.io/static-site-boilerplate/',
-
-  // Google Analytics tracking ID (leave blank to disable)
-  googleAnalyticsUA: '',
-
-  // The viewport meta tag added to your HTML page's <head> tag
-  viewport: 'width=device-width,initial-scale=1',
-
   // Source file for favicon generation. 512x512px recommended.
   favicon: path.join(ROOT, '/src/images/favicon.png'),
 

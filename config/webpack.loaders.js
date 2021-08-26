@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const autoprefixer = require('autoprefixer');
 const config = require('./site.config');
 
 // Define common loader constants
@@ -10,9 +11,6 @@ const html = {
   use: [
     {
       loader: 'html-loader',
-      options: {
-        interpolate: true,
-      },
     },
   ],
 };
@@ -47,10 +45,9 @@ const cssLoader = {
 const postcssLoader = {
   loader: 'postcss-loader',
   options: {
-    plugins: [
-      require('autoprefixer')(),
-    ],
-    sourceMap,
+		postcssOptions: {
+			plugins: [ autoprefixer ]
+		}
   },
 };
 
@@ -71,21 +68,6 @@ const sass = {
     postcssLoader,
     {
       loader: 'sass-loader',
-      options: {
-        sourceMap,
-      },
-    },
-  ],
-};
-
-const less = {
-  test: /\.less$/,
-  use: [
-    config.env === 'production' ? MiniCssExtractPlugin.loader : styleLoader,
-    cssLoader,
-    postcssLoader,
-    {
-      loader: 'less-loader',
       options: {
         sourceMap,
       },
@@ -130,7 +112,7 @@ const fonts = {
   use: [
     {
       loader: 'file-loader',
-      query: {
+      options: {
         name: '[name].[hash].[ext]',
         outputPath: 'fonts/',
       },
@@ -144,7 +126,7 @@ const videos = {
   use: [
     {
       loader: 'file-loader',
-      query: {
+      options: {
         name: '[name].[hash].[ext]',
         outputPath: 'images/',
       },
@@ -157,7 +139,6 @@ module.exports = [
   js,
   css,
   sass,
-  less,
   images,
   fonts,
   videos,
