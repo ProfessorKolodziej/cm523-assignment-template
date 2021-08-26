@@ -30,6 +30,7 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 
 - **Tag:** A piece of HTML code that helps a computer understand the meaning of your content. Different tags have different meanings, and tags have a **syntax** that helps a computer understand where that meaning starts and ends, like so: `<tag-name>your content</tag-name>`. For example, an h1 tag means that the content inside is the main heading for the page, and looks like `<h1>Your Title Here</h1>`.
 - **Syntax:** A special set of rules for how to write code that tells a computer how to read the code. Each language has its own syntax.
+- **Branch:**
 
 ## Instructions
 
