@@ -36,20 +36,20 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 
 These instructions will build on your knowledge by having you practice the same set of skills you learned in Test Your Connections, but without the step by step screenshots. See if you can remember how to do each step without the help of the screenshots. If you are having trouble or getting stuck, head over to the Test Your Connections assignment instructions for a reminder.
 
-### Clone this repository and find it on your computer
+### 1. Clone this repository and find it on your computer
 
 1. Use the "Open with Github Desktop" button to open this repository in Tower.
 2. When the window opens in Tower, choose Clone.
 3. In Tower, click Repositories, then select your repository, then click "Open".
 4. On the screen that appears, right click Working Copy, then select **Reveal in Finder** to show the location of the folder on your computer.
 
-### Open the folder in VSCode, and make a change to the HTML
+### 2. Open the folder in VSCode, and make a change to the HTML
 
 1. Drag and drop the folder from the window that appears into VSCode.
 2. Read the requirements above carefully. Then, use the information in the requirements to make a change to your code.
 3. Save your changes.
 
-### Commit and push your changes to GitHub
+### 3. Commit and push your changes to GitHub
 
 1. Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy".
 2. Click “Stage All”.
@@ -57,14 +57,14 @@ These instructions will build on your knowledge by having you practice the same 
 4. Hit “Commit”. This creates a commit, and your changes will “disappear”.
 5. Look for a small arrow with a number next to your **branch**. This is how many changes you will be pushing. Click the small up arrow to push your changes to GitHub.
 
-### New: Open a pull request on GitHub for feedback
+### 4. New: Open a pull request on GitHub for feedback
 
 | Step | Screenshot |
 | --- | --- |
 | Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". <ol><li>Click “Stage All”</li><li>Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.</li><li>Hit “Commit”. This creates a commit, and your changes will “disappear”.</li></ol> | ![image9](https://user-images.githubusercontent.com/1828613/130551912-d3ffbeca-089d-4311-a2de-d82258eb9676.png) | 
 | This is what that "disappearing" will look like. Don't panic, your changes are still there! You can see they are because now there will be a small arrow with a number. This is how many changes you will be pushing. It's time to **push** your changes. Click the small up arrow to push your changes to GitHub. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
 
-## How grading and feedback works
+## 5. New: Check Autograding to see how you did!
 
 This repository uses Autograding to check the basic assignment requirements. Once you pass these requirements, [send me a link to the pull request in Blackboard](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=825). I'll give you additional feedback on things like performance and coding style, so you know how to improve your code for next time.
 
