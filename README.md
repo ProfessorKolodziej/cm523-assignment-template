@@ -70,17 +70,6 @@ Run `npm install` to install development dependencies, then see `Usage` below.
 * **Cutting Edge:** Uses Webpack for processing and bundling your code
 * **Deployment:** Built-in support for deploying `dist` to the `gh-pages` branch. Serve your site right on Github Pages!
 
-## Browser Support
-
-* Chrome _\(latest 2\)_
-* Edge _\(latest 2\)_
-* Firefox _\(latest 2\)_
-* Internet Explorer 9+
-* Opera _\(latest 2\)_
-* Safari _\(latest 2\)_
-
-_This  is fully dependent on your code and doesn't mean that Static Site Boilerplate won't work in older browsers, just that we'll ensure compatibility with the ones mentioned above._
-
 ## License
 
 The code is available under the [MIT license](LICENSE).
