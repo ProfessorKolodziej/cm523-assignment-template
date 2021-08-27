@@ -68,7 +68,6 @@ Make sure you've [set up your development environment](https://docs.google.com/d
 * **Image Optimization:** Optimizes images for loading speed
 * **Favicon Generation:** Automatically generates all favicons for Web, Apple and Android devices from one image file
 * **Code Linting:** Full support for JavaScript (ESLint) and CSS (StyleLint) linting
-* **Sitemap & Robots.txt Generation:** Automatically generates a sitemap.xml and robots.txt files
 * **Cutting Edge:** Uses Webpack for processing and bundling your code
 * **Deployment:** Built-in support for deploying `dist` to the `gh-pages` branch. Serve your site right on Github Pages!
 
