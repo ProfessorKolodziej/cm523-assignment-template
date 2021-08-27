@@ -1,10 +1,10 @@
 # Hello, world!
 
-Today, we're going to be making our first changes to HTML.
+Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub.
 
 ## Requirements
 
-- [ ] Change the title of the page to Hello, world!
+- [ ] Change the title of the page to "Hello, world!"
 - [ ] Add a paragraph in the first line of the body tag with the text "Hello, world!", using the `<p>` tag.
 - [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
 - [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to introduce to the class. Use the snippet below to get started:
@@ -17,47 +17,55 @@ Today, we're going to be making our first changes to HTML.
 		</code>
 		<p>All information is from <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></cite></p>
 	```
-- [ ] Send a link to your completed project in Glitch in the #introductions channel in Slack.
 
 ## Finished Assignment Example
 
 <img width="1552" alt="Screen Shot 2020-08-18 at 2 04 36 PM" src="https://user-images.githubusercontent.com/1828613/90549036-e21c4b00-e15b-11ea-8828-b8dcd5d076de.png">
 
-## Get started by syncing with Glitch!
+## First: What is HTML?
 
-First time? Need some extra help getting set up? Check out [this tutorial video on Kaltura](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n).
 
-Just need a quick refresher? [Try this part of the video instead.](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=783)
 
-**Import this repository to your Glitch account**
-- Copy the URL of this repository, then open [Glitch](https://glitch.com/) in a new tab.
-- Click "New Project", then "Import from Github".
-- Paste the URL of this repository into the dialog.
-- Rename the project to something you will remember, like this repository name.
+### New terms
 
-A new Glitch project with this code will appear. Now, you should set up the export so that when you're done editing in Glitch, Github will be able to see your changes, and you can check to see if you met the assignment requirements. This is the perfect time to test that connection.
+- **Tag:** A piece of HTML code that helps a computer understand the meaning of your content. Different tags have different meanings, and tags have a **syntax** that helps a computer understand where that meaning starts and ends, like so: `<tag-name>your content</tag-name>`. For example, an h1 tag means that the content inside is the main heading for the page, and looks like `<h1>Your Title Here</h1>`.
+- **Syntax:** A special set of rules for how to write code that tells a computer how to read the code. Each language has its own syntax.
+- **Branch:**
 
-**Export your changes from Glitch to Gibhub**
-- Click "Tools" at the bottom of the page, and then click "Import and Export".
-- Click "Export to Github".
-- Return to this tab and grab your repository name. For example, `ProfessorKolodziej/example-assignment`.
-- You're ready to work! When you're happy with what you have, export your changes, and then return to Github and [create a pull request](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=640) from the new branch Glitch creates. Your grading and feedback will happen here!
-- Don't forget to [submit your pull request to Blackboard](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=825) when you're ready for my feedback.
+## Instructions
 
-## How grading and feedback works
+These instructions will build on your knowledge by having you practice the same set of skills you learned in Test Your Connections, but without the step by step screenshots. See if you can remember how to do each step without the help of the screenshots. If you are having trouble or getting stuck, head over to the Test Your Connections assignment instructions for a reminder.
+
+### 1. Clone this repository and find it on your computer
+
+1. Use the "Open with Github Desktop" button to open this repository in Tower.
+2. When the window opens in Tower, choose Clone.
+3. In Tower, click Repositories, then select your repository, then click "Open".
+4. On the screen that appears, right click Working Copy, then select **Reveal in Finder** to show the location of the folder on your computer.
+
+### 2. Open the folder in VSCode, and make a change to the HTML
+
+1. Drag and drop the folder from the window that appears into VSCode.
+2. Read the requirements above carefully. Then, use the information in the requirements to make a change to your code.
+3. Save your changes.
+
+### 3. Commit and push your changes to GitHub
+
+1. Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy".
+2. Click “Stage All”.
+3. Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.
+4. Hit “Commit”. This creates a commit, and your changes will “disappear”.
+5. Look for a small arrow with a number next to your **branch**. This is how many changes you will be pushing. Click the small up arrow to push your changes to GitHub.
+
+### 4. New: Open a pull request on GitHub for feedback
+
+| Step | Screenshot |
+| --- | --- |
+| Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". <ol><li>Click “Stage All”</li><li>Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.</li><li>Hit “Commit”. This creates a commit, and your changes will “disappear”.</li></ol> | ![image9](https://user-images.githubusercontent.com/1828613/130551912-d3ffbeca-089d-4311-a2de-d82258eb9676.png) | 
+| This is what that "disappearing" will look like. Don't panic, your changes are still there! You can see they are because now there will be a small arrow with a number. This is how many changes you will be pushing. It's time to **push** your changes. Click the small up arrow to push your changes to GitHub. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
+
+## 5. New: Check Autograding to see how you did!
 
 This repository uses Autograding to check the basic assignment requirements. Once you pass these requirements, [send me a link to the pull request in Blackboard](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=825). I'll give you additional feedback on things like performance and coding style, so you know how to improve your code for next time.
 
 [Learn more about Autograding in this video](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=676)
-
-## Local Development
-
-If you'd like to run this project locally, [install the LTS version of node.js](https://www.npmjs.com/get-npm), clone the repo and then:
-
-1. `npm install` to install dependencies
-2. `npm start` to preview the app locally
-3. `npm test` to run the tests
-
-## About this repository
-
-Automated feedback is heavily based on the work of [thawkin3](https://github.com/thawkin3/dom-testing-demo) and [d12](https://github.com/education/autograding-example-node), and uses Jest.
