@@ -12,26 +12,19 @@ Assignment description here.
 
 You can add a finished assignment screenshot by uploading your screenshot to a Github issue in your new template repository. Copy and paste the markup that is generated here. Note - you don't have to save the issue!
 
-## Get started by syncing with Glitch!
 
-First time? Need some extra help getting set up? Check out [this tutorial video on Kaltura](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n).
 
-Just need a quick refresher? [Try this part of the video instead.](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=783)
 
-**Import this repository to your Glitch account**
-- Copy the URL of this repository, then open [Glitch](https://glitch.com/) in a new tab.
-- Click "New Project", then "Import from Github".
-- Paste the URL of this repository into the dialog.
-- Rename the project to something you will remember, like this repository name.
+## Instructions
 
-A new Glitch project with this code will appear. Now, you should set up the export so that when you're done editing in Glitch, Github will be able to see your changes, and you can check to see if you met the assignment requirements. This is the perfect time to test that connection.
+### Clone this repository and find it on your computer
 
-**Export your changes from Glitch to Gibhub**
-- Click "Tools" at the bottom of the page, and then click "Import and Export".
-- Click "Export to Github".
-- Return to this tab and grab your repository name. For example, `ProfessorKolodziej/example-assignment`.
-- You're ready to work! When you're happy with what you have, export your changes, and then return to Github and [create a pull request](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=640) from the new branch Glitch creates. Your grading and feedback will happen here!
-- Don't forget to [submit your pull request to Blackboard](https://mymedia.bu.edu/media/Put+it+All+TogetherA+Blackboard%2C+Github%2C+Glitch/1_66r1kz2n?st=825) when you're ready for my feedback.
+| Step | Screenshot |
+| --- | --- |
+| Use the "Open with Github Desktop" button to open this repository in Tower. | <img width="1904" alt="Screen Shot 2021-08-23 at 6 22 10 PM" src="https://user-images.githubusercontent.com/1828613/130527013-54c1c211-0bb8-4d56-aba7-38711b3138e0.png"> |
+| This is what the window will look like. Hit Clone. | <img width="592" alt="Screen Shot 2021-08-23 at 6 25 26 PM" src="https://user-images.githubusercontent.com/1828613/130527312-6a07dcd0-afc6-4910-b43c-49b49bb7f256.png"> |
+| In Tower, click Repositories, then select your repository, then click "Open". | <img width="1293" alt="Screen Shot 2021-08-23 at 6 29 57 PM" src="https://user-images.githubusercontent.com/1828613/130527732-09a74cc6-cd83-4a04-9758-99273dc3334c.png"> |
+| On the screen that appears, right click Working Copy, then select **Reveal in Finder** to show the location of the folder on your computer. | <img width="1185" alt="Screen Shot 2021-08-23 at 6 32 22 PM" src="https://user-images.githubusercontent.com/1828613/130527956-551ec249-23f4-45d1-9613-a2cf446410e7.png"> |
 
 ## How grading and feedback works
 
