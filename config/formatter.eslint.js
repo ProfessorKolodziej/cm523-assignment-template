@@ -112,7 +112,7 @@ module.exports = function(results) {
         if (fixableErrorCount > 0 || fixableWarningCount > 0) {
             output += "   - Try running " + chalk.dim("`npm run fix`") + " to resolve any errors \n     that can be fixed automatically.\n";
         } else {
-        	output += "   - Look each file " + chalk[successColor].bold("one by one.") + " The file name is underlined.\n";
+        	output += "   - Look at each file " + chalk[successColor].bold("one by one.") + " The file name is underlined.\n";
         	output += "   - Start with the " + chalk[successColor].bold("first") + " error in the file, and work your way down.\n";
         	output += "     Sometimes when you fix one error, it fixes other errors too.\n";
         	output += "   - Look for the " + chalk[successColor].bold("line and column number.") + " It looks like this: " + chalk.dim(exampleLocation) + "\n";
@@ -122,7 +122,7 @@ module.exports = function(results) {
         	output += "     Look to see " + chalk[successColor].bold("how the message relates to your code.") + "\n";
         	output += "   - If you are still unsure, try " + chalk[successColor].bold("looking up") + " the rule name: " + chalk.dim(exampleRule) + "\n";
         	output += "     at " + chalk["cyan"].underline("https://eslint.org/docs/rules/") + ".\n";
-        	output += "   - Rerun " + chalk.dim("`npm run lint`") + " to see if you fixed the error.";
+        	output += "   - Rerun " + chalk.dim("`npm run test`") + " to see if you fixed the error.";
         }
     }
 
