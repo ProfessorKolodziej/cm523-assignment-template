@@ -57,6 +57,7 @@ Make sure you've [set up your development environment](https://docs.google.com/d
 | **`npm run start`** | Start development. Edit your code in the `src` folder. |
 | **`npm run lint`** | Checks all code for formatting and validation errors. |
 | **`npm run fix`** | Checks all code for formatting and validation errors and attempts to automatically fix them. |
+| **`npm run test`** | Runs all tests to make sure your code meets assignment requirements. |
 | **`npm run build`** | Create a production-ready build of your code to the `dist` folder. |
 | **`npm run deploy`** | Builds and deploys your code to Github Pages. |
 
