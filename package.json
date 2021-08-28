@@ -26,20 +26,23 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js",
     "start:dist": "cross-env NODE_ENV=production webpack-dev-server --config ./config/webpack.config.js && http-server ./dist -o",
-    "lint:html": "html-validate --config .htmlvalidate.json \"src\"",
-    "lint:js": "./node_modules/.bin/eslint \"src/**/*.js\"",
-    "lint:styles": "stylelint \"src/**/*.scss\"",
+    "lint:html": "echo \"Validating your HTML...\" && html-validate --config .htmlvalidate.json --formatter @profkexplains/htmlvalidate \"src\" && chalk green \"✓ No errors found in your HTML\n\n\"",
+    "lint:js": "echo \"Starting ESLint...\" && eslint \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green \"✓ No errors found in your JavaScript\n\n\"",
+    "lint:styles": "echo \"Starting Stylelint...\" && stylelint \"src/**/*.scss\" --custom-formatter ./config/formatter.stylelint.js && chalk green \"✓ No errors found in your CSS\n\n\"",
     "lint": "npm run lint:html && npm run lint:styles && npm run lint:js",
-    "fix": "./node_modules/.bin/eslint --fix \"src/**/*.js\" && stylelint --fix \"src/**/*.scss\"",
+    "fix": "eslint --fix \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green \"✓ Attempted to automatically fix JavaScript errors\n\" && stylelint --fix \"src/**/*.scss\" && chalk green \"✓ Attempted to automatically fix CSS errors\n\" && echo \"\nAll set! Run 'npm run lint' to check for errors \nthat need to be fixed manually.\n\"",
     "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "test": "npm run lint && chalk green \"✓ All tests passed. Nice work!\""
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
+    "@profkexplains/htmlvalidate": "file:config/htmlvalidate",
     "autoprefixer": "^10.3.2",
     "babel-loader": "^8.2.2",
+    "chalk-cli": "^4.1.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.2.0",
