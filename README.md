@@ -33,7 +33,7 @@ Because syntax can be hard to get right the first time, I've also added a specia
 ### New terms
 
 - **Syntax:** A special set of rules for how to write code that tells a computer how to read the code. Each language has its own syntax.
-- **Tag:** A piece of HTML code that helps a computer understand the meaning of your content. Different tags have different meanings, and tags have a **syntax** that helps a computer understand where that meaning starts and ends, like so: `<tag-name>your content</tag-name>`. For example, an h1 tag means that the content inside is the main heading for the page, and looks like `<h1>Your Title Here</h1>`.
+- **Tag:** A piece of HTML code that helps a computer understand the meaning of your content. Different tags have different meanings, and tags have a **syntax** that helps a computer understand where that meaning starts and ends, like so: `<tagname>your content</tagname>`. For example, an h1 tag means that the content inside is the main heading for the page, and looks like `<h1>Your Title Here</h1>`.
 - **npm:** Node Package Manager. A package manager helps us use and leverage other people's code to make our lives easier. As your professor, I'm using `npm` to create a special command that will help you see your HTML, CSS, and JavaScript changes instantly in a browser. You'll learn more about `npm` as we go!
 - **`npm run start`:** A Terminal command that will show a preview of your work in the browser.
 - **`npm run test`:** A Terminal command that will help you check if you completed all the assignment requirements correctly.
