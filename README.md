@@ -57,7 +57,15 @@ These instructions will build on your knowledge by having you practice the same 
 1. Use the "Open with Github Desktop" button to open this repository in Tower.
 2. When the window opens in Tower, choose Clone.
 3. In Tower, click Repositories, then select your repository, then click "Open".
-4. On the screen that appears, right click Working Copy, then select **Reveal in Finder** to show the location of the folder on your computer.
+
+### 2. New: Create a branch in Tower
+
+| Step | Screenshot |
+| --- | --- |
+| Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". Then, right click the **main** branch and select "Create new branch from main...". | <img width="1843" alt="Screen Shot 2021-09-06 at 11 47 01 AM" src="https://user-images.githubusercontent.com/1828613/132241164-77318d57-996f-40bd-a162-d0cf6b754e97.png"> | 
+| Name your new branch “assignment”. The starting point should be main. Make sure “track branch main” is unchecked, and “check out branch” is checked. When you've verified the settings are correct, click "Create branch". | <img width="1838" alt="Screen Shot 2021-09-06 at 11 47 23 AM" src="https://user-images.githubusercontent.com/1828613/132241506-0d47b71f-4418-47f7-b147-589709fdb2e3.png"> | 
+| You will now be on the assignment branch. Look for the `head` tag to confirm. | <img width="1845" alt="Screen Shot 2021-09-06 at 11 53 42 AM" src="https://user-images.githubusercontent.com/1828613/132241752-95f499d1-f1f0-4676-9d45-e69c8792ed9b.png"> | 
+| Finally, right click the Working Copy and select Reveal in Finder to open up the location of your assignment in Finder. | <img width="1735" alt="Screen Shot 2021-09-06 at 11 56 04 AM" src="https://user-images.githubusercontent.com/1828613/132241974-323068a7-4493-48ce-a477-5563c0e936a0.png"> | 
 
 ### 2. New: Install dependencies and start the project
 
@@ -68,9 +76,9 @@ These instructions will build on your knowledge by having you practice the same 
 
 ### 3. Open the folder in VSCode, and make a change to the HTML
 
-1. Drag and drop the folder from the window that appears into VSCode.
+1. Drag and drop the folder from the window in Finder into VSCode.
 2. Read the requirements above carefully. Then, use the information in the requirements to make a change to your code.
-3. Save your changes. Your browser should automatically update!
+3. Save your changes. Your browser should automatically update and reflect the changes!
 
 ### 4. New: Test your code
 
