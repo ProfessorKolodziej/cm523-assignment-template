@@ -64,7 +64,7 @@ You'll run the `npm run start` command each time you're ready to start work. For
 
 | Step | Screenshot |
 | --- | --- |
-| Clear the screen using the Command+K keyboard shortcut if you are on a mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
+| Clear the screen using the Command + K keyboard shortcut if you are on a Mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into each time you run a new command. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
 | <p>A new browser window will open, and your terminal will look like the screenshot to the right. What is happening is that the terminal is watching your files for changes, and at this point, you can put it off to the side.</p> <p>The browser shows a preview of your assignment. There's nothing there yet - that's okay! Next, you'll make a change in VSCode, and the browser will show your changes automatically.</p> | <img width="996" alt="Screen Shot 2021-09-06 at 1 28 45 PM" src="https://user-images.githubusercontent.com/1828613/132249364-bc643fff-0cb7-4053-9748-48b202c39c90.png"> | 
 
 ### 4. Open the folder in VSCode, and make changes to the HTML
@@ -94,7 +94,7 @@ You'll run the `npm run start` command each time you're ready to start work. For
 | A successful test will look like this. Keep going until your test is successful! If you're stuck, don't get discouraged, and reach out to your classmates to compare notes! | ![Screen Shot 2021-09-06 at 4 17 14 PM](https://user-images.githubusercontent.com/1828613/132258456-b0b7f43c-4155-4e9b-bca9-40e81fccda53.png) | 
 | Return to Tower, and then commit and push any new changes you've made to Github. | ![Screen Shot 2021-09-06 at 4 17 14 PM](https://user-images.githubusercontent.com/1828613/131233610-2619d900-50f0-4b0f-899a-741d8fb088a6.png) | 
 
-## 6. New: Check Autograding to see how you did!
+## 7. New: Check Autograding to see how you did!
 
 1. Find your changes on GitHub.
 2. Once you are on the Pull Requests tab, head to Conversation.
