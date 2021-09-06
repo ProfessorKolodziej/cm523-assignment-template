@@ -1,6 +1,6 @@
 # Hello, world!
 
-Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll also learn two new skills: how to preview your work in a web browser as you change it, and how to create a branch and open a pull request in GitHub.
+Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll also learn two new skills: how to preview your work in a web browser as you change it, and how to test your changes and see grading in GitHub.
 
 ## Requirements
 
@@ -81,8 +81,8 @@ You'll run the `npm run start` command each time you're ready to start work. For
 
 | Step | Screenshot |
 | --- | --- |
-| Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". <ol><li>Click “Stage All”</li><li>Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.</li><li>Hit “Commit”. This creates a commit, and your changes will “disappear”.</li></ol> | ![image9](https://user-images.githubusercontent.com/1828613/130551912-d3ffbeca-089d-4311-a2de-d82258eb9676.png) | 
-| This is what that "disappearing" will look like. Don't panic, your changes are still there! You can see they are because now there will be a small arrow with a number. This is how many changes you will be pushing. It's time to **push** your changes. Click the small up arrow to push your changes to GitHub. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
+| To run the test, you will need to stop the command you have been running (`npm run start`). Use the Control + C shortcut in Terminal to stop the start command. Your Terminal will look like the right. If you have the folder name and dollar sign at the bottom, that is how you know it is stopped. | ![Screen Shot 2021-09-06 at 3 33 47 PM](https://user-images.githubusercontent.com/1828613/132256087-48d7b5bc-0d8c-42a4-89a5-c8c25a53e4ff.png) | 
+| Clear the terminal using Command + K, and then run the following command: `npm run test`. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
 
 ### 5. Commit and push your changes to GitHub
 
