@@ -7,7 +7,7 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 - [ ] Change the title of the page to "Hello, world!"
 - [ ] Add a paragraph in the first line of the body tag with the text "Hello, world!", using the `<p>` tag.
 - [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
-- [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to introduce to the class. Use the snippet below to get started:
+- [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and briefly explain what it does, as well as why you think it is interesting. Use the snippet below to get started:
 	```
 		<h2>My favorite new HTML element</h2>
 		<!-- This is a comment. It helps provide instructions, and doesn't show in final HTML. You can delete it if you want, and replace this with what your favorite HTML element is, and why. Hint: if you want to show your HTML element like a tag in the text, like in the example, you may need to escape the HTML element using a tool like https://www.freeformatter.com/html-escape.html -->
@@ -69,20 +69,13 @@ You'll run the `npm run start` command each time you're ready to start work. For
 | Clear the screen using the Command+K keyboard shortcut if you are on a mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
 | <p>A new browser window will open, and your terminal will look like the screenshot to the right. What is happening is that the terminal is watching your files for changes, and at this point, you can put it off to the side.</p> <p>The browser shows a preview of your assignment. There's nothing there yet - that's okay! Next, you'll make a change in VSCode, and the browser will show your changes automatically.</p> | <img width="996" alt="Screen Shot 2021-09-06 at 1 28 45 PM" src="https://user-images.githubusercontent.com/1828613/132249364-bc643fff-0cb7-4053-9748-48b202c39c90.png"> | 
 
-### 5. Open the folder in VSCode, and make changes to the HTML
+### 4. Open the folder in VSCode, and make changes to the HTML
 
 1. Drag and drop the folder from the window in Finder into VSCode.
 2. Read the requirements above carefully. Then, use the information in the requirements to make a change to your code.
 3. Save your changes. Your browser should automatically update and reflect the changes when you save!
 4. Keep working until you are happy with your assignment progress, and ready to double check it meets the assignment requirements. Check your Terminal if changes stop showing up in the browser - there is probably an error in your code.
-5. Once you've reviewed the requirements and sample image to be sure your code looks similar, you're ready to test it!
-
-### 6. New: Test your code
-
-| Step | Screenshot |
-| --- | --- |
-| To run the test, you will need to stop the command you have been running (`npm run start`). Use the Control + C shortcut in Terminal to stop the start command. Your Terminal will look like the right. If you have the folder name and dollar sign at the bottom, that is how you know it is stopped. | ![Screen Shot 2021-09-06 at 3 33 47 PM](https://user-images.githubusercontent.com/1828613/132256087-48d7b5bc-0d8c-42a4-89a5-c8c25a53e4ff.png) | 
-| Clear the terminal using Command + K, and then run the following command: `npm run test`. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
+5. Once you've reviewed the requirements and sample image to be sure your code looks similar, commit it!
 
 ### 5. Commit and push your changes to GitHub
 
@@ -91,6 +84,14 @@ You'll run the `npm run start` command each time you're ready to start work. For
 3. Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.
 4. Hit “Commit”. This creates a commit, and your changes will “disappear”.
 5. Look for a small arrow with a number next to your **branch**. This is how many changes you will be pushing. Click the small up arrow to push your changes to GitHub.
+
+### 6. New: Test your code
+
+| Step | Screenshot |
+| --- | --- |
+| To run the test, you will need to stop the command you have been running (`npm run start`). Use the Control + C shortcut in Terminal to stop the start command. Your Terminal will look like the right. If you have the folder name and dollar sign at the bottom, that is how you know it is stopped. | ![Screen Shot 2021-09-06 at 3 33 47 PM](https://user-images.githubusercontent.com/1828613/132256087-48d7b5bc-0d8c-42a4-89a5-c8c25a53e4ff.png) | 
+| Clear the terminal using Command + K, and then run the following command: `npm run test`. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
+| If your HTML is valid, but you are missing an assignment requirement, your test results will look similar to this. Look for phrases or sentences in the error that are familiar. | <img width="1777" alt="Screen Shot 2021-09-06 at 3 47 36 PM" src="https://user-images.githubusercontent.com/1828613/132257223-da888ea5-a845-4ee5-a539-ab5d266b4ee0.png"> | 
 
 ## 6. New: Check Autograding to see how you did!
 
