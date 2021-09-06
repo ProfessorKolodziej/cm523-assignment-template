@@ -67,7 +67,7 @@ These instructions will build on your knowledge by having you practice the same 
 | You will now be on the assignment branch. Look for the `head` tag to confirm. | <img width="1845" alt="Screen Shot 2021-09-06 at 11 53 42 AM" src="https://user-images.githubusercontent.com/1828613/132241752-95f499d1-f1f0-4676-9d45-e69c8792ed9b.png"> | 
 | Finally, right click the Working Copy and select Reveal in Finder to open up the location of your assignment in Finder. | <img width="1735" alt="Screen Shot 2021-09-06 at 11 56 04 AM" src="https://user-images.githubusercontent.com/1828613/132241974-323068a7-4493-48ce-a477-5563c0e936a0.png"> | 
 
-### 2. New: Install dependencies and start the project
+### 2. New: Install dependencies and start the assignment
 
 | Step | Screenshot |
 | --- | --- |
