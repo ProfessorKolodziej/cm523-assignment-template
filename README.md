@@ -1,6 +1,6 @@
 # Hello, world!
 
-Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll also learn two new skills: how to preview your work in a web browser as you change it, and how to test your changes and see grading in GitHub.
+Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll also learn two new skills: how to preview your work in a web browser as you change it, and how to test your changes and see feedback in GitHub.
 
 ## Requirements
 
