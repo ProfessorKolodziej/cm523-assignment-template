@@ -30,14 +30,6 @@ One of the hardest things to learn when learning a new programming language is t
 
 Because syntax can be hard to get right the first time, I've also added a special command, `npm run test`, that will test your code to make sure the syntax is right, and that your assignment meets the assignment requirements. If you run this and get a message that all tests passed, you'll know you're getting full points on this assignment! The same checks here are the same checks you'll see in GitHub on your branch. This is called autograding.
 
-Before we talk about branches, let's review that new information one more time. You'll be using `npm run start` to start all your assignment work, and then `npm run test` to make sure it meets assignment requirements.
-
-A **branch** is a set of code changes (commits!) that all go together. In the Test Your Connections assignment, you worked on the `main` branch. Today, you'll learn how to create an `assignment` branch. 
-
-Branches are required to make a **pull request**. Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing a set of changes, and asking that someone review them. In the last assignment, GitHub Classroom automatically opened a branch for you that contained your changes to the assignment, and that was what allowed me to review your work as your professor. Today, you're going to learn how to do that yourself.
-
-If this sounds like a lot, don't worry - it will come naturally eventually! Keep following the instructions. As you repeat these steps, you'll start to learn them by heart and it will get less overwhelming.
-
 ### New terms
 
 - **Syntax:** A special set of rules for how to write code that tells a computer how to read the code. Each language has its own syntax.
@@ -58,29 +50,34 @@ These instructions will build on your knowledge by having you practice the same 
 2. When the window opens in Tower, choose Clone.
 3. In Tower, click Repositories, then select your repository, then click "Open".
 
-### 2. New: Create a branch in Tower
+### 2. New: Install development dependencies (Only once per assignment)
+
+You only need to install development dependencies when you first start the assignment. Once you've run `npm install` on an assignment, you don't need to do it again. When you start a **new** assignment, that's when you'll run this command.
 
 | Step | Screenshot |
 | --- | --- |
-| Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". Then, right click the **main** branch and select "Create new branch from main...". | <img width="1843" alt="Screen Shot 2021-09-06 at 11 47 01 AM" src="https://user-images.githubusercontent.com/1828613/132241164-77318d57-996f-40bd-a162-d0cf6b754e97.png"> | 
-| Name your new branch “assignment”. The starting point should be main. Make sure “track branch main” is unchecked, and “check out branch” is checked. When you've verified the settings are correct, click "Create branch". | <img width="1838" alt="Screen Shot 2021-09-06 at 11 47 23 AM" src="https://user-images.githubusercontent.com/1828613/132241506-0d47b71f-4418-47f7-b147-589709fdb2e3.png"> | 
-| You will now be on the assignment branch. Look for the `head` tag to confirm. | <img width="1845" alt="Screen Shot 2021-09-06 at 11 53 42 AM" src="https://user-images.githubusercontent.com/1828613/132241752-95f499d1-f1f0-4676-9d45-e69c8792ed9b.png"> | 
-| Finally, right click the Working Copy and select Reveal in Finder to open up the location of your assignment in Finder. | <img width="1735" alt="Screen Shot 2021-09-06 at 11 56 04 AM" src="https://user-images.githubusercontent.com/1828613/132241974-323068a7-4493-48ce-a477-5563c0e936a0.png"> | 
+| <p>Drag the folder onto the Terminal icon. A new window will appear with the folder name in it.</p> <small style="font-size: 0.75em;">_Alternately, you can also open Terminal or Command Propmt, type_ `cd`, _add a space, drag and drop the folder into the Terminal window, and then press enter. But this way is easier._ `cd` _stands for "change directory"._</small> | <img width="2048" alt="Screen Shot 2021-09-06 at 1 14 25 PM" src="https://user-images.githubusercontent.com/1828613/132248395-bf069451-9f08-4638-8137-1014c9831e02.png"> | 
+| Type the following command into the window, and then hit enter: `npm install`. | <img width="918" alt="Screen Shot 2021-09-06 at 1 23 33 PM" src="https://user-images.githubusercontent.com/1828613/132248753-fa646f4e-3c3b-471e-87e2-121f1814ec1b.png"> | 
+| Allow the install script to run. This is installing your development dependencies - the things that make your website run. Wait until you see a screen similar to this. You can ignore the vulnerabilities message - that's my job to maintain! | <img width="918" alt="Screen Shot 2021-09-06 at 1 24 39 PM" src="https://user-images.githubusercontent.com/1828613/132248805-8675a3cc-894d-4eb1-a64f-84f6e545274f.png"> | 
 
-### 2. New: Install dependencies and start the assignment
+### 3. New: Start the assignment (When you're ready to start work)
+
+You'll run the `npm run start` command each time you're ready to start work. For example, if you work, and then shut your computer down, and then come back the next day, you'll only have to run `npm run start`.
 
 | Step | Screenshot |
 | --- | --- |
-| Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". <ol><li>Click “Stage All”</li><li>Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.</li><li>Hit “Commit”. This creates a commit, and your changes will “disappear”.</li></ol> | ![image9](https://user-images.githubusercontent.com/1828613/130551912-d3ffbeca-089d-4311-a2de-d82258eb9676.png) | 
-| This is what that "disappearing" will look like. Don't panic, your changes are still there! You can see they are because now there will be a small arrow with a number. This is how many changes you will be pushing. It's time to **push** your changes. Click the small up arrow to push your changes to GitHub. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
+| Clear the screen using the Command+K keyboard shortcut if you are on a mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
+| <p>A new browser window will open, and your terminal will look like the screenshot to the right. What is happening is that the terminal is watching your files for changes, and at this point, you can put it off to the side.</p> <p>The browser shows a preview of your assignment. There's nothing there yet - that's okay! Next, you'll make a change in VSCode, and the browser will show your changes automatically.</p> | <img width="996" alt="Screen Shot 2021-09-06 at 1 28 45 PM" src="https://user-images.githubusercontent.com/1828613/132249364-bc643fff-0cb7-4053-9748-48b202c39c90.png"> | 
 
-### 3. Open the folder in VSCode, and make a change to the HTML
+### 5. Open the folder in VSCode, and make changes to the HTML
 
 1. Drag and drop the folder from the window in Finder into VSCode.
 2. Read the requirements above carefully. Then, use the information in the requirements to make a change to your code.
-3. Save your changes. Your browser should automatically update and reflect the changes!
+3. Save your changes. Your browser should automatically update and reflect the changes when you save!
+4. Keep working until you are happy with your assignment progress, and ready to double check it meets the assignment requirements. Check your Terminal if changes stop showing up in the browser - there is probably an error in your code.
+5. Once you've reviewed the requirements and sample image to be sure your code looks similar, you're ready to test it!
 
-### 4. New: Test your code
+### 6. New: Test your code
 
 | Step | Screenshot |
 | --- | --- |
@@ -94,13 +91,6 @@ These instructions will build on your knowledge by having you practice the same 
 3. Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.
 4. Hit “Commit”. This creates a commit, and your changes will “disappear”.
 5. Look for a small arrow with a number next to your **branch**. This is how many changes you will be pushing. Click the small up arrow to push your changes to GitHub.
-
-### 6. New: Open a pull request on GitHub for feedback
-
-| Step | Screenshot |
-| --- | --- |
-| Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy". <ol><li>Click “Stage All”</li><li>Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.</li><li>Hit “Commit”. This creates a commit, and your changes will “disappear”.</li></ol> | ![image9](https://user-images.githubusercontent.com/1828613/130551912-d3ffbeca-089d-4311-a2de-d82258eb9676.png) | 
-| This is what that "disappearing" will look like. Don't panic, your changes are still there! You can see they are because now there will be a small arrow with a number. This is how many changes you will be pushing. It's time to **push** your changes. Click the small up arrow to push your changes to GitHub. | ![image6](https://user-images.githubusercontent.com/1828613/130552156-9fd93037-8f3d-479f-a314-40e1d18ee5f8.png) | 
 
 ## 6. New: Check Autograding to see how you did!
 
