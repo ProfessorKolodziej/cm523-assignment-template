@@ -37,8 +37,6 @@ Because syntax can be hard to get right the first time, I've also added a specia
 - **npm:** Node Package Manager. A package manager helps us use and leverage other people's code to make our lives easier. As your professor, I'm using `npm` to create a special command that will help you see your HTML, CSS, and JavaScript changes instantly in a browser. You'll learn more about `npm` as we go!
 - **`npm run start`:** A Terminal command that will show a preview of your work in the browser.
 - **`npm run test`:** A Terminal command that will help you check if you completed all the assignment requirements correctly.
-- **Branch:** A set of [commits](https://github.com/ProfessorKolodziej/cm523-test-your-connections#new-terms) that are all related to one another.
-- **Pull Request:** A way to propose your changes and ask for a review of your code. Pull requests help developers collaborate and review each other's code!
 
 ## Instructions
 
