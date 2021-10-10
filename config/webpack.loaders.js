@@ -98,11 +98,7 @@ const imageLoader = {
 
 const images = {
   test: /\.(gif|png|jpe?g|svg)$/i,
-  exclude: /fonts/,
-  use: [
-    'file-loader?name=images/[name].[hash].[ext]',
-    config.env === 'production' ? imageLoader : null,
-  ].filter(Boolean),
+  type: 'asset/resource'
 };
 
 // Font loaders
