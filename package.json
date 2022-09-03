@@ -79,7 +79,8 @@
     "jest": "^25.3.0",
     "@testing-library/dom": "^7.22.2",
     "@testing-library/jest-dom": "^5.5.0",
-    "babel-jest": "^25.3.0"
+    "babel-jest": "^25.3.0",
+    "webpackbar": "^5.0.0-3"
   },
   "jest": {
     "clearMocks": true,
@@ -104,7 +105,6 @@
         }
       ]
     }
-    "webpackbar": "^5.0.0-3"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
