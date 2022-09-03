@@ -10,7 +10,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const config = require('./site.config');
 
@@ -18,11 +18,8 @@ const config = require('./site.config');
 const hmr = new webpack.HotModuleReplacementPlugin();
 
 // Optimize CSS assets
-const optimizeCss = new OptimizeCssAssetsPlugin({
-  assetNameRegExp: /\.optimize\.css$/g,
-  cssProcessor: cssnano,
-  cssProcessorOptions: { safe: true, discardComments: { removeAll: true } },
-  canPrint: true,
+const optimizeCss = new CssMinimizerPlugin({
+  test: /\.optimize\.css$/g,
 });
 
 // Clean webpack
