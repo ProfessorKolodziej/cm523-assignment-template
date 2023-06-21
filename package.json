@@ -1,7 +1,7 @@
 {
   "name": "student-site-boilerplate",
   "description": "A modern boilerplate for static website development, based on https://staticsiteboilerplate.com/",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/ProfessorKolodziej/student-site-boilerplate",
   "author": {
     "name": "Ashley Kolodziej",
@@ -11,76 +11,37 @@
     "type": "git",
     "url": "git+https://github.com/ProfessorKolodziej/student-site-boilerplate.git"
   },
-  "license": "MIT",
   "keywords": [
     "html5",
     "css3",
-    "es6",
-    "frontend",
-    "sass",
-    "less",
-    "static",
-    "boilerplate",
-    "webpack"
+    "es6"
   ],
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js",
-    "start:dist": "cross-env NODE_ENV=production webpack-dev-server --config ./config/webpack.config.js && http-server ./dist -o",
+    "start": "cross-env live-server src",
     "lint:html": "echo \"Validating your HTML...\" && html-validate --config .htmlvalidate.json --formatter @profkexplains/htmlvalidate \"src\" && chalk green --no-stdin \"✓ No errors found in your HTML\n\n\"",
     "lint:js": "echo \"Starting ESLint...\" && eslint \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green --no-stdin \"✓ No errors found in your JavaScript\n\n\"",
-    "lint:styles": "echo \"Starting Stylelint...\" && stylelint \"src/**/*.scss\" --custom-formatter ./config/formatter.stylelint.js && chalk green --no-stdin \"✓ No errors found in your CSS\n\n\"",
+    "lint:styles": "echo \"Starting Stylelint...\" && stylelint \"src/**/*.css\" --custom-formatter ./config/formatter.stylelint.js && chalk green --no-stdin \"✓ No errors found in your CSS\n\n\"",
     "lint": "npm run lint:html && npm run lint:styles && npm run lint:js",
     "fix": "eslint --fix \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green --no-stdin \"✓ Attempted to automatically fix JavaScript errors\n\" && stylelint --fix \"src/**/*.scss\" && chalk green --no-stdin \"✓ Attempted to automatically fix CSS errors\n\" && echo \"\nAll set! Run 'npm run lint' to check for errors \nthat need to be fixed manually.\n\"",
-    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js",
-    "deploy": "npm run build && gh-pages -d dist",
-    "test": "npm run lint && echo \"Checking assignment requirements...\" && jest && chalk green --no-stdin \"✓ All tests passed. Nice work!\""
+    "deploy": "gh-pages -d src",
+    "test": "npm run lint && chalk green --no-stdin \"✓ All tests passed. Nice work!\""
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10",
     "@profkexplains/htmlvalidate": "file:config/htmlvalidate",
-    "autoprefixer": "^10.4.8",
-    "babel-loader": "^8.2.5",
-    "chalk-cli": "^5.0.0",
-    "clean-webpack-plugin": "^4.0.0",
+    "chalk-cli": "^5.0.1",
     "cross-env": "^7.0.3",
-    "css-loader": "^6.7.1",
-    "css-minimizer-webpack-plugin": "^4.0.0",
-    "cssnano": "^5.1.13",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-import": "^2.24.1",
-    "favicons": "^6.2.2",
-    "favicons-webpack-plugin": "^5.0.2",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "file-loader": "^6.2.0",
-    "gh-pages": "^4.0.0",
-    "glob": "^8.0.3",
-    "html-loader": "^4.1.0",
-    "html-validate": "^7.3.3",
-    "html-webpack-plugin": "^5.5.0",
-    "http-server": "^14.1.1",
-    "image-webpack-loader": "^8.1.0",
-    "mini-css-extract-plugin": "^2.6.1",
-    "node-sass": "^7.0.1",
-    "postcss": "^8.4.16",
-    "postcss-loader": "^7.0.1",
-    "sass-loader": "^13.0.2",
-    "style-loader": "^3.3.1",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-scss": "^3.20.1",
-    "stylelint-webpack-plugin": "^3.0.1",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0",
-    "webpack-merge": "^5.8.0",
+    "gh-pages": "^5.0.0",
+    "html-validate": "^8.0.5",
+    "live-server": "^1.2.2",
+    "stylelint": "^15.8.0",
+    "stylelint-config-standard": "^33.0.0",
     "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests",
     "jest": "^25.3.0",
     "@testing-library/dom": "^7.22.2",
     "@testing-library/jest-dom": "^5.5.0",
-    "babel-jest": "^25.3.0",
-    "webpackbar": "^5.0.0-3"
   },
   "jest": {
     "clearMocks": true,
@@ -106,8 +67,5 @@
       ]
     }
   },
-  "dependencies": {
-    "normalize.css": "^8.0.1",
-    "webpack-dev-server": "^4.0.0"
-  }
+  "dependencies": {}
 }
