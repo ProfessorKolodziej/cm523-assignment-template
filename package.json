@@ -22,9 +22,9 @@
     "lint:js": "echo \"Starting ESLint...\" && eslint \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green --no-stdin \"✓ No errors found in your JavaScript\n\n\"",
     "lint:styles": "echo \"Starting Stylelint...\" && stylelint \"src/**/*.css\" --custom-formatter ./config/formatter.stylelint.js && chalk green --no-stdin \"✓ No errors found in your CSS\n\n\"",
     "lint": "npm run lint:html && npm run lint:styles && npm run lint:js",
-    "fix": "eslint --fix \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green --no-stdin \"✓ Attempted to automatically fix JavaScript errors\n\" && stylelint --fix \"src/**/*.scss\" && chalk green --no-stdin \"✓ Attempted to automatically fix CSS errors\n\" && echo \"\nAll set! Run 'npm run lint' to check for errors \nthat need to be fixed manually.\n\"",
+    "fix": "eslint --fix \"src/**/*.js\" -f ./config/formatter.eslint.js && chalk green --no-stdin \"✓ Attempted to automatically fix JavaScript errors\n\" && stylelint --fix \"src/**/*.css\" && chalk green --no-stdin \"✓ Attempted to automatically fix CSS errors\n\" && echo \"\nAll set! Run 'npm run lint' to check for errors \nthat need to be fixed manually.\n\"",
     "deploy": "gh-pages -d src",
-    "test": "npm run lint && chalk green --no-stdin \"✓ All tests passed. Nice work!\""
+    "test": "npm run lint && echo \"Checking assignment requirements...\" && jest && chalk green --no-stdin \"✓ All tests passed. Nice work!\""
   },
   "devDependencies": {
     "@profkexplains/htmlvalidate": "file:config/htmlvalidate",
@@ -35,28 +35,25 @@
     "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0",
     "html-validate": "^8.0.5",
+    "jest": "^29.5.0",
     "live-server": "^1.2.2",
     "stylelint": "^15.8.0",
     "stylelint-config-standard": "^33.0.0",
-    "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests",
-    "jest": "^25.3.0",
-    "@testing-library/dom": "^7.22.2",
-    "@testing-library/jest-dom": "^5.5.0",
+    "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests"
   },
   "jest": {
     "clearMocks": true,
-    "setupFilesAfterEnv": [
-      "regenerator-runtime/runtime"
-    ],
     "testMatch": [
       "**/?(*.)+(spec|test).[jt]s?(x)"
     ],
-    "testPathIgnorePatterns": [],
-    "transformIgnorePatterns": [],
+    "testPathIgnorePatterns": [
+      "/node_modules/(?!(cm523-unit-tests)/hello-world)"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(cm523-unit-tests)/hello-world)"
+    ],
     "haste": {
-      "providesModuleNodeModules": [
-        "cm523-unit-tests/hello-world"
-      ]
+      "retainAllFiles": true
     },
     "transform": {
       "\\.js$": [
@@ -66,6 +63,5 @@
         }
       ]
     }
-  },
-  "dependencies": {}
+  }
 }
