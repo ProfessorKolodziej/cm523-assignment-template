@@ -27,19 +27,21 @@
     "test": "npm run lint && echo \"Checking assignment requirements...\" && jest && chalk green --no-stdin \"✓ All tests passed. Nice work!\""
   },
   "devDependencies": {
-    "@profkexplains/htmlvalidate": "file:config/htmlvalidate",
     "chalk-cli": "^5.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.43.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0",
-    "html-validate": "^8.0.5",
-    "jest": "^29.5.0",
     "live-server": "^1.2.2",
     "stylelint": "^15.8.0",
-    "stylelint-config-standard": "^33.0.0",
-    "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests"
+    "stylelint-config-standard": "^33.0.0"
+  },
+  "dependencies": {
+    "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests",
+    "html-validate": "^8.0.5",
+    "jest": "^29.5.0",
+    "@profkexplains/htmlvalidate": "file:config/htmlvalidate"
   },
   "jest": {
     "clearMocks": true,
